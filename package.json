@@ -1,0 +1,27 @@
+{
+  "name": "tradingview-binance-trading",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --es-module-specifier-resolution=node  ./src/server.js",
+    "dev": "nodemon --es-module-specifier-resolution=node  ./src/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "binance-api-node": "^0.12.4",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.4",
+    "@babel/node": "^7.20.7",
+    "@babel/preset-env": "^7.21.4",
+    "@babel/register": "^7.21.0",
+    "nodemon": "^2.0.22"
+  }
+}
